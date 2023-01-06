@@ -1,11 +1,11 @@
-package com.dodemy.viewbindingexample.fragment
+package com.dodemy.viewbindinginactivityandfragment.fragment
 
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.fragment.app.Fragment
-import com.dodemy.viewbindingexample.R
-import com.dodemy.viewbindingexample.databinding.FragmentDemoBinding
+import com.dodemy.viewbindinginactivityandfragment.R
+import com.dodemy.viewbindinginactivityandfragment.databinding.FragmentDemoBinding
 
 class DemoBindFragment : Fragment(R.layout.fragment_demo) {
 

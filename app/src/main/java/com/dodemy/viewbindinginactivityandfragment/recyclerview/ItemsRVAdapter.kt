@@ -1,9 +1,10 @@
-package com.dodemy.viewbindingexample.recyclerview
+package com.dodemy.viewbindinginactivityandfragment.recyclerview
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.dodemy.viewbindingexample.databinding.ItemRowBinding
+import com.dodemy.viewbindinginactivityandfragment.databinding.ItemRowBinding
+
 
 class ItemsRVAdapter(private var itemsCells: ArrayList<String?>) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 

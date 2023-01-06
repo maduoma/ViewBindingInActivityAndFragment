@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.dodemy.viewbindingexample'
+    namespace 'com.dodemy.viewbindinginactivityandfragment'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.dodemy.viewbindingexample"
+        applicationId "com.dodemy.viewbindinginactivityandfragment"
         minSdk 21
         targetSdk 33
         versionCode 1

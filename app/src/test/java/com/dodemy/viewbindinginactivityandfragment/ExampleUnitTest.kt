@@ -1,4 +1,4 @@
-package com.dodemy.viewbindingexample
+package com.dodemy.viewbindinginactivityandfragment
 
 import org.junit.Test
 

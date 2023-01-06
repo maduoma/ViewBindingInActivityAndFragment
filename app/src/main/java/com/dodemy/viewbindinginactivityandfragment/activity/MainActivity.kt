@@ -1,13 +1,13 @@
-package com.dodemy.viewbindingexample.activity
+package com.dodemy.viewbindinginactivityandfragment.activity
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.FragmentTransaction
-import com.dodemy.viewbindingexample.databinding.ActivityMainBinding
-import com.dodemy.viewbindingexample.fragment.DemoBindFragment
-import com.dodemy.viewbindingexample.fragment.DemoInflateFragment
-import com.dodemy.viewbindingexample.recyclerview.DemoRecyclerView
+import com.dodemy.viewbindinginactivityandfragment.databinding.ActivityMainBinding
+import com.dodemy.viewbindinginactivityandfragment.fragment.DemoBindFragment
+import com.dodemy.viewbindinginactivityandfragment.fragment.DemoInflateFragment
+import com.dodemy.viewbindinginactivityandfragment.recyclerview.DemoRecyclerView
 
 class MainActivity : AppCompatActivity() {
 

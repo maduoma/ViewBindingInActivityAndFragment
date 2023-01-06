@@ -1,9 +1,10 @@
-package com.dodemy.viewbindingexample.recyclerview
+package com.dodemy.viewbindinginactivityandfragment.recyclerview
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.dodemy.viewbindingexample.databinding.RecyclerviewDemoBinding
+import com.dodemy.viewbindinginactivityandfragment.databinding.RecyclerviewDemoBinding
+
 
 class DemoRecyclerView : AppCompatActivity() {
 

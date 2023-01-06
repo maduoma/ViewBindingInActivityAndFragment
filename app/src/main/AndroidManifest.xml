@@ -12,7 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ViewBindingExample"
         tools:targetApi="31">
-        <activity android:name=".recyclerview.DemoRecyclerView" />
+        <activity
+            android:name=".recyclerview.DemoRecyclerView"
+            android:exported="true"
+            android:parentActivityName=".activity.MainActivity" />
 
         <activity
             android:name=".activity.MainActivity"
@@ -26,6 +29,10 @@
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".recyclerview.DemoRecyclerView" />
         </activity>
     </application>
 
